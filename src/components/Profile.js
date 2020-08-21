@@ -15,7 +15,7 @@ const Profile = () => {
                 description
                 <div className="posts">
                     <div className="post">
-                        post1
+                        post1 + text
                     </div>
                     <div className="post">
                         post2
