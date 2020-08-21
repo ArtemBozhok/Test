@@ -1,0 +1,24 @@
+.siteNav {
+    grid-area: aside;
+    background: #ffffff;
+}
+
+.item {
+    color: #413E5B;
+    display: block;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s ease;
+}
+
+.item:hover {
+    background: #413e5b;
+    color: #ffffff;
+}
+
+.siteNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

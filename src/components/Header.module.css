@@ -1,0 +1,16 @@
+.siteHeader {
+    background: #404059;
+}
+
+.siteLogo {
+    width: 70px;
+    height: 70px;
+    background: #ff4d01;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.siteLogo img {
+    max-width: 45px;
+}
