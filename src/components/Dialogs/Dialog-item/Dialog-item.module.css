@@ -1,0 +1,28 @@
+.dialog {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: .2s ease;
+    color: #333333;
+}
+
+.avatar {
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+.avatar img {
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    margin-right: 15px;
+}
+
+.dialog:hover, .active {
+    background: #d7d6e2;
+    font-weight: bold;
+    font-size: 18px;
+    color: #433B5D;
+}

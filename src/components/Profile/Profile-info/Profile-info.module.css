@@ -1,0 +1,50 @@
+.topInfo {
+    min-height: 400px;
+    background-image: url('https://html.crumina.net/html-olympus/img/top-header1.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.profileInfo {
+    padding-bottom: 100px;
+    background: #ffffff;
+    margin-bottom: 25px;
+}
+.shortInfo {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+
+.avatar {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    -webkit-border-radius: 65px;
+    -moz-border-radius: 65px;
+    border-radius: 65px;
+}
+
+.avatar img {
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    width: 120px;
+    height: 120px;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 14px;
+    color: #404059;
+}

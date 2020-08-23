@@ -22,3 +22,8 @@
     padding: 0;
     margin: 0;
 }
+
+.active {
+    background: #413e5b;
+    color: #ffffff;
+}
