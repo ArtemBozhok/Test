@@ -11,14 +11,14 @@ h2,h1 {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   display: grid;
   grid-template-areas:
   "aside main main"
   "aside main main";
   grid-gap: 40px;
-  grid-template-columns: 2fr 10fr;
+  grid-template-columns: 3fr 10fr;
   grid-template-rows: 70px 1fr;
 }
 
@@ -32,4 +32,12 @@ img {
 
 .siteContent {
   grid-area: main;
+}
+
+.sidebar {
+  grid-area: aside;
+}
+
+main {
+  height: 100%;
 }

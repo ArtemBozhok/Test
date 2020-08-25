@@ -1,4 +1,16 @@
 .message {
-    padding: 25px;
-    border: 1px solid #ffffff;
+    padding: 10px 15px;
+    border: 1px solid #727171;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: #e8f0fd;
+    margin: 5px 20px;
+    max-width: 60%;
+}
+
+.right {
+    align-self: flex-end;
+    background: #404059;
+    color: #ffffff;
 }

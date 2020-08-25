@@ -7,10 +7,10 @@ const PostItem = (props) => {
             <div className={style.header}>
                 <div className={style.avatar}><img src="https://html.crumina.net/html-olympus/img/author-main1.jpg" alt="avatar"/></div>
                 <div className="wrapper">
-                    <div className="name">
+                    <div className={style.name}>
                         Artem
                     </div>
-                    <div className="date">
+                    <div className={style.date}>
                         20.08.2020
                     </div>
                 </div>

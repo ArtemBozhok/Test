@@ -2,8 +2,9 @@ import React from "react";
 import style from './Message.module.css'
 
 const Message = (props) => {
+    let selector = props.isMine ? `${style.message} ${style.right}` : style.message;
     return (
-        <div className={style.message}>{props.text}</div>
+        <div className={selector}>{props.text}</div>
     )
 }
 

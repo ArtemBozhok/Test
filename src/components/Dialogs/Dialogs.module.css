@@ -1,5 +1,28 @@
 .dialogsWrapper {
     display: grid;
     grid-template-columns: 3fr 10fr;
-    grid-gap: 20px;
+    background: #ffffff;
+    padding: 15px;
+    height: 100%;
+}
+
+.head {
+    margin: 0;
+    padding: 15px;
+    border-bottom: 1px solid #C2CBD1;
+    align-self: stretch;
+}
+
+.dialogHead {
+    border-bottom: none;
+}
+
+.dialogs {
+    border-right: 1px solid #C2CBD1;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }

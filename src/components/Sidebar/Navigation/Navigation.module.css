@@ -1,8 +1,3 @@
-.siteNav {
-    grid-area: aside;
-    background: #ffffff;
-}
-
 .item {
     color: #413E5B;
     display: block;
@@ -15,6 +10,9 @@
 .item:hover {
     background: #413e5b;
     color: #ffffff;
+}
+
+.siteNav {
 }
 
 .siteNav ul {

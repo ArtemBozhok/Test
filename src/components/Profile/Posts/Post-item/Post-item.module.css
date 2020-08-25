@@ -1,8 +1,12 @@
 .post {
     color: #c60707;
     margin-bottom: 15px;
-    border: 1px solid #413E5B;
+    border: 2px solid #EBF0F8;
     padding: 25px;
+    background: #ffffff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 }
 
 .avatar {
@@ -21,4 +25,16 @@
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+}
+
+.name {
+    color: #555555;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.date {
+    color: #555555;
+    font-size: 12px;
+    margin-top: 5px;
 }
