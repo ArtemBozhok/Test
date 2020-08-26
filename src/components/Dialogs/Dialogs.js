@@ -2,6 +2,7 @@ import React from "react";
 import style from './Dialogs.module.css';
 import DialogItem from "./Dialog-item/Dialog-item";
 import Message from "./Message/Message";
+import MessageForm from "./Message-form/Message-form";
 
 const Dialogs = (props) => {
 
@@ -22,6 +23,7 @@ const Dialogs = (props) => {
                 <div className={style.messages}>
                     <h2 className={style.head}>Avatar + User Name</h2>
                     {messagesComponents}
+                    <MessageForm/>
                 </div>
             </div>
         </main>
