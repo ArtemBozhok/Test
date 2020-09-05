@@ -10,7 +10,9 @@ const Profile = (props) => {
         <main>
             <div className="profile">
                 <ProfileInfo/>
-                <ProfileForm addPost={props.state}/>
+                <ProfileForm
+                    dispatch={props.dispatch}
+                    state={props.state}/>
                 <Posts state={props.state.posts}/>
             </div>
         </main>

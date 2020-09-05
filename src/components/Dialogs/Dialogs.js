@@ -5,10 +5,8 @@ import Message from "./Message/Message";
 import MessageForm from "./Message-form/Message-form";
 
 const Dialogs = (props) => {
-
     let dialogsData = props.state.dialogs;
     let messagesData = props.state.messages;
-    console.log(messagesData);
 
     let dialogsComponents = dialogsData.map(dialog => <DialogItem id={dialog.id} name={dialog.name} src={dialog.src}/>);
     let messagesComponents = messagesData.map(message => <Message isMine={message.isOwn} text={message.text} />);
@@ -23,7 +21,7 @@ const Dialogs = (props) => {
                 <div className={style.messages}>
                     <h2 className={style.head}>Avatar + User Name</h2>
                     {messagesComponents}
-                    <MessageForm/>
+                    <MessageForm text={props.state.newMessageText} dispatch={props.dispatch} />
                 </div>
             </div>
         </main>

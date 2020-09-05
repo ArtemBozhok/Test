@@ -1,0 +1,35 @@
+.form {
+    margin: 20px;
+    margin-top: auto;
+    align-self: stretch;
+    display: flex;
+}
+
+.form textarea {
+    resize: none;
+    width: 90%;
+    margin-right: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.form textarea:focus {
+    outline: none;
+    box-shadow: 0px 0px 2px 1px #413E5B;
+}
+
+.btn {
+    background: #FF3400;
+    border: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-weight: bold;
+    transition: .3s linear;
+}
+
+.btn:hover {
+    background: #433B5D;
+    cursor: pointer;
+}

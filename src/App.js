@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Header from "./components/Header/Header";
-import Nav from "./components/Sidebar/Navigation/Navigation";
 import Profile from "./components/Profile/Profile";
 import Dialogs from "./components/Dialogs/Dialogs";
 import {Route, BrowserRouter} from "react-router-dom";
@@ -19,8 +18,10 @@ const App = (props) => {
                 <div className="site-container container">
                     <Sidebar state={props.state.sidebar}/>
                     <div className="siteContent">
-                        <Route path='/profile' render={() => <Profile state={props.state.profilePage}/>}/>
-                        <Route path='/messages' render={() => <Dialogs state={props.state.dialogsPage}/>}/>
+                        <Route path='/profile' render={() => <Profile dispatch={props.dispatch}
+                                                                      state={props.state.profilePage}/>}/>
+                        <Route path='/messages' render={() => <Dialogs state={props.state.dialogsPage}
+                                                                       dispatch={props.dispatch}/>}/>
                         <Route path='/news' component={News}/>
                         <Route path='/music' component={Music}/>
                         <Route path='/settings' component={Settings}/>
